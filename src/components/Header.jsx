@@ -7,13 +7,25 @@ import ru from '../img/ru.svg';
 import en from '../img/en.svg';
 import user from '../img/user.png';
 import {Link} from 'react-router-dom';
+
+const data = {
+    am: {
+        nav: ['Գլխավոր'],
+
+    },
+    ru:{
+        nav:['Главная']
+    },
+    en:{
+        nav:['Home']
+    }
+}
 export default function Header(props) {
 
     let [lang, setLang] = useState('/')
     const changeLang = (e) => {
         setLang(prev => prev = e.target.dataset.leng)
     }
-
     return (
         <header>
             <div className="logo">
@@ -22,9 +34,10 @@ export default function Header(props) {
             </div>
             <nav className='header__nav'>
                 <ul>
-
                     <li>
-                        <Link to={'/'}>Գլխավոր</Link>
+                        <Link to={'/'}>{
+                            lang === '/'?data.am.nav[0]:data.ru.nav[0]
+                        }</Link>
                     </li>
                     <li>
                         <Link to={'/service'}>Ծառայություններ</Link>
@@ -67,7 +80,10 @@ export default function Header(props) {
                     <img src={user} alt=""/>
                 </div>
                 <div className="dark_mode">
-                    <input type="checkbox"/>
+                    <label>
+                        <input type="checkbox" onChange={props.darkMode} defaultChecked={props.dark?'checked': ''}/>
+                        <span className="radio" style={props.dark?{transform: 'translateX(-5%)'}:{transform: 'translateX(85%)'}}></span>
+                    </label>
                 </div>
             </div>
         </header>
