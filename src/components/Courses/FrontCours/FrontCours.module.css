@@ -1,0 +1,186 @@
+@font-face {
+  font-family: 'ArialArmST';
+  src: url(../Fonts/ArialArmST.ttf), url(../Fonts/ArialArmSTBold.ttf);
+}
+@font-face {
+  font-family: 'ArialAMU';
+  src: url(../Fonts/ArialAMU.ttf);
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+}
+
+.student__info1 {
+  font-family: ArialArmST;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 134.8%;
+  text-align: center;
+  letter-spacing: 0.055em;
+  color: #000000;
+  opacity: 0.5;
+  margin-top: 10px;
+  margin-right: 12px;
+}
+
+.student__info2 {
+  font-family: ArialArmST;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 134.8%;
+  text-align: center;
+  letter-spacing: 0.055em;
+  color: #000000;
+  opacity: 0.5;
+  margin-right: 12px;
+  margin-top: 3px;
+}
+
+.student__info3 {
+  font-family: ArialArmST;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 134.8%;
+  text-align: center;
+  letter-spacing: 0.055em;
+  color: #000000;
+  opacity: 0.5;
+  padding-left: 27px;
+  margin-top: 3px;
+}
+
+.stars__img {
+  background-image: url(../images/star1.png);
+  width: 96px;
+  height: 19px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.left__right {
+  display: flex;
+  justify-content: space-between;
+}
+.parentDIv__left {
+  height: 802px;
+  width: 629px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.front_img {
+  background-image: url(../images/frontImg.png);
+  height: 469px;
+  width: 630px;
+  margin-left: -1px;
+  border-radius: 20px;
+}
+
+.front_title {
+  font-family: ArialArmST;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 134.8%;
+  margin-left: 20.42px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  display: inline-block;
+
+  letter-spacing: 0.055em;
+
+  color: #050e11;
+}
+
+.more__info {
+  display: flex;
+}
+
+.programming {
+  display: table-caption;
+  font-family: ArialArmST;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 134.8%;
+  /* letter-spacing: 0.055em; */
+  color: #1d607a;
+  /* border: 1px solid #1d607a; */
+  margin-left: 20px;
+  margin-top: 10.57px;
+  margin-bottom: 0px;
+}
+
+.about__webprog {
+  width: 337px;
+  height: 126px;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-family: ArialAMU;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 134.8%;
+  letter-spacing: 0.055em;
+  color: #000000;
+  opacity: 0.5;
+}
+/* .student__conteiner {
+} */
+.student1 {
+  background-image: url(../images/student1.png);
+  height: 35px;
+  width: 34px;
+  /* margin-left: 7.5px; */
+  margin-bottom: 25px;
+}
+
+.student2 {
+  background-image: url(../images/student2.png);
+  height: 19px;
+  width: 19px;
+  margin-left: 7.5px;
+  margin-bottom: 25px;
+}
+
+.date {
+  background-image: url(../images/date.png);
+  height: 20px;
+  width: 20px;
+  margin-left: 7.5px;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.bnt__link {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  height: 61px;
+  width: 266.05755615234375px;
+  /* left: 69px; */
+  /* top: 712px; */
+  border-radius: 100px;
+  background: #1d607a;
+  padding-top: 20px;
+}
+.parentDIv__right {
+  height: 802px;
+  width: 630px;
+  left: 49px;
+  top: 0px;
+  border-radius: 20px;
+  background-color: white;
+  width: 50%;
+}

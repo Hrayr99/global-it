@@ -1,0 +1,19 @@
+.general {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font-family: ArialArmST;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 39px;
+  line-height: 134.8%;
+  /* identical to box height, or 53px */
+  margin-bottom: 100px;
+  margin-top: 100.27px;
+  letter-spacing: 0.055em;
+  text-align: center;
+
+  color: #ffffff;
+}
